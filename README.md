@@ -6,7 +6,8 @@ Originally designed as an *Employee Database Manager*, this version is customize
 It’s an excellent showcase of dynamic UI rendering, data handling, and event-driven DOM manipulation — key skills tested in frontend interviews.
 
 ---
-
+🎥Demo
+https://github.com/user-attachments/assets/0256ab62-f42e-486e-9921-6dffac433bd4
 ## 🚀 Features
 
 ### 🏁 Dynamic Driver Listing
@@ -54,4 +55,30 @@ This project demonstrates all of those using plain JavaScript — no frameworks,
 ---
 
 ## 🗂️ Folder Structure
+f1-drivers-database/
+│
+├── index.html # Base UI structure
+├── style.css # Styling for layout and theme
+├── index.js # Core logic (render, add, delete)
+└── data.json # Driver data source
+
+
+---
+
+## ⚙️ Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/f1-drivers-database.git
+
+
+Open the project folder:
+
+cd f1-drivers-database
+
+
+Run with Live Server (VS Code extension) or open index.html directly in your browser.
+ 
+
+
 
