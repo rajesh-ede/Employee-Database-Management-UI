@@ -31,7 +31,7 @@ body {
 .employees > div {
   border: 1px solid black;
   overflow-y: scroll;
-  height: 450px;
+  height: 490px;
 }
 .employees__names {
   width: 30%;

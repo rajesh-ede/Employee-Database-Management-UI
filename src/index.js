@@ -101,12 +101,15 @@
     employeeInfo.innerHTML = `
       <img src="${selectedEmployee.imageUrl}" />
       <span class="employees__single--heading">
-      ${selectedEmployee.firstName} ${selectedEmployee.lastName} (${selectedEmployee.age})
+      ${selectedEmployee.firstName} ${selectedEmployee.lastName} 
       </span>
-      <span>${selectedEmployee.address}</span>
+      <span>Age : ${selectedEmployee.age}</span>
       <span>${selectedEmployee.email}</span>
-      <span>Mobile - ${selectedEmployee.contactNumber}</span>
+      <span>${selectedEmployee.address}</span>
+      <span>Races Team :${selectedEmployee.comp}</span>
+      <span>ID - ${selectedEmployee.contactNumber}</span>
       <span>DOB - ${selectedEmployee.dob}</span>
+      <span> ${selectedEmployee.salary}</span>
     `;
   };
   // Render Single Employee Logic - END
